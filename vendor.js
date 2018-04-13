@@ -1,4 +1,3 @@
-import('./common');
 import('./util');
 import('styled-elements');
 

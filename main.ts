@@ -43,7 +43,7 @@ document.body.appendChild(Wrapper(
 
 
 import('./app').then(() => {
-	document.getElementById('root').innerText = 'successfully loaded app';
+	document.getElementById('root').innerText = 'successfully loaded app tds';
 	sayHello(str.pad('success'));
 }).catch((error) => {
 	console.error(error);

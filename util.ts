@@ -1,4 +1,3 @@
-import('./common');
 
 const str = {
 	pad: (str:string)=>{
@@ -7,6 +6,6 @@ const str = {
 };
 
 
-console.log('util');
+console.log('util') ;
 
 export {str};
