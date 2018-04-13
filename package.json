@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "preact": "^8.2.7"
+    "preact": "^8.2.7",
+    "styled-elements": "^1.0.14"
   },
   "devDependencies": {
     "typescript": "^2.8.1"
