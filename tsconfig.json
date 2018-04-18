@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"allowSyntheticDefaultImports": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es5",
+		"removeComments": true,
+		"sourceMap": true,
+		"declaration": true,
+		"experimentalDecorators": true,
+		"jsx": "react",
+		"jsxFactory": "h",
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noEmitHelpers": true,
+		"importHelpers": true,
+		"lib": [
+			"es7",
+			"es5",
+			"es2015.promise",
+			"es2015.generator",
+			"dom"
+		],
+		"typeRoots": [
+			"node_modules/@types"
+		]
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"static"
+	]
+}
