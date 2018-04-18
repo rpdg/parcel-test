@@ -26,24 +26,22 @@ interface IPorps  {
 
 
 
-const Spaner = styled.span`
+const Spanner = styled.span`
 	background-color: #ddd;
 	border-radius: 3em;
 	border: 1px solid #ccc;
+	padding: 10px;
+	display: inline-block;
 `;
 
 @observer
 class Clock extends Component<IPorps , null> {
 	render() {
 		const {time} = this.props.timer;
-		return <Spaner>{time.toLocaleTimeString()}</Spaner>;
+		return <Spanner>{time.toLocaleTimeString()}</Spanner>;
 	}
 }
 
 // render an instance of Clock into <body>:
 render(<Clock timer={new Timer()} />, document.querySelector('#root'));
 
-
-if (module.hot) {
-	module.hot.accept();
-}
